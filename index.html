@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML </title>
+  <meta name="description" content="Estoy aprendiendo html.">
+
+    <style>
+    /* Estilos base para todos los encabezados */
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+
+    /* Tamaño igual para todos los encabezados */
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 2rem;
+    }
+    </style>
+    <link rel="stylesheet" href="assets/estyles.css"> 
+    
+</head>
+<body>
+  <!--Asi se hacen los comentarios -->
+  <p>Que loco el tab aqui. enye, ñ. jajaj lol</p>
+  <p>P es parrafo</p>
+  <p>h es header de titulo.</p>
+  <h1 style="background-color: gray;">Tags Level 1</h1>
+    <p>Palabra en <b>Negrita</b> <i>Italica</i> <u>subrayado</u> <mark>marcatexto</mark> <small>Piedepágina</small></p>
+    <strong>Este texto en negrita es importante, usa la tag strong.</strong>
+    <em>Este texto es énfasis con em.</em>
+    <blockquote>Frase importante que quieres bloquear con blockquote tag. </blockquote>
+    Esto es para salto de linea. <br>
+    <hr> <!--Esto pone una linea diviendo los textos.-->
+    <p>Etiqueta <code>code</code> para poner el texto como si fuese codigo de programacion o instruccion :3 </p>
+
+
+  <h2>Tags de formateo. Level 2</h2>
+  <p>
+    <pre>Etiqueta pre (pre, se cierra.)
+    - Muy util para listas.
+    - Respeta la identacion que hagas.
+    - Como en el word jeje.
+    - Cambia la fuente y formato.
+    </pre>
+  </p>
+
+  <h3>Level 3 Etiquetas semanticas estructurales.</h3>
+    <div>Es una etiqueta contenedora que no tiene semantica.</div>
+    <header>Cabezera de un sitio web o de una sección</header>
+    <main> Define la seccion principal del documento. Solo puede existir una etiqueta main por documento.
+    </main>
+    <footer> Pie de pagina de un sitio web o de una seccion</footer>
+    <nav> Conjunto de enlaces de una navegacion o botonera</nav>
+    <article> 
+      Representa una seccion autocontenido (que por si sola se explica)
+    </article>
+    <aside> Representa contenido complementario</aside>
+    <section> Seccion de contenido importante</section>
+    <address> Representa una direccion fisica</address>
+  
+  <h4>Level 4 Etiquetas de Bloque vs. Etiquetas de lineas.</h4>
+    <div style="background-color: lightslategray;"> Etiqueta de dividir bloques por excelencia. Es aquella que genera saltos de línea con sus etiquetas hermanas.(Ocupa todo el viewport)</div>
+    <span style="background-color: lightpink;"> Etiequeta de linea por excelencia es span.Solo ocupa el espacio necesario que tiene el contenido.</span>
+    <span>Las etiquetas de linea no generan saltos de linea, ni arriba ni abajo.</span>
+    <hr>
+    <h2>Scripts en HTML</h2>
+    <p>Se añade la source del javascript para implementar el codigo en la pagina. Etiqueta <script> </script> se abre y se cierra antes de cerrar el body. Y pone <console.log>  y <script src="assets/codigos.js"></script> 
+  <h2>images.</h2>
+  <img src="img/nosequeeswrd.jpg" alt="Texto alternativo cuando la imagen se rompe."> 
+  <hr>
+  <h2>Figuras</h2>
+  Etiqueta de imagen explicatoria.
+  <figure>
+    <img src="img/periodic-table-of-html-elements.png" alt="Tabla de los Elementos HTML">
+    <figcaption>Texto descriptivo de la imagen como un pie de pagina que en este caso seria "Tabla de los Elementos HTML". </figcaption>
+  </figure>
+  <hr>
+  <h2>Listas Ordenadas</h2>
+  ol es Order List. li es List Item.
+  <ol start="4"> 
+    <li>Primavera</li> 
+    <li>Verano</li>
+    <li>Otonyo</li>
+    <li>Invierno</li>
+
+  </ol type="a">
+    <li>Primavera</li> 
+    <li>Verano</li>
+    <li>Otonyo</li>
+    <li>Invierno</li>
+  </ol>
+  <hr> 
+  <h2>Listas Desordenadas.</h2>
+  <h7>Cosas que hacer.</h7>
+  ul Que es Unnordered List.
+  <ul type="disk">
+    <li>Ducharme.</li>
+    <li>Comer.</li>
+    <li>Trabajar.</li>
+    <li>Seguir estudiando.</li>
+  </ul>
+</body>
+</html> 
